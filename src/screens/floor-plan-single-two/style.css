@@ -1,0 +1,9 @@
+.floor-plan-single img {
+    width: 30%;
+    max-width: 100%;
+}
+.floor-plan-single {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+}

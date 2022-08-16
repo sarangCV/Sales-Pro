@@ -1,0 +1,64 @@
+.green-building-info-content {
+    margin-top: 60px;
+}
+.green-building-image-sec img {
+    height: 100%;
+    width: 100%;
+}
+
+.green-building-image-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-building-para-sec {
+    padding: 0 30px;
+}
+.green-building-para-sec h2 {
+    margin-bottom: 15px;
+    color: rgb(33, 153, 49);
+}
+.green-building-para-sec table img {
+    width: 13%;
+}
+
+.green-building-para-sec table {
+   font-family: 'Josefin Sans', sans-serif;
+}
+.green-building-para-sec Table th {
+    color: rgb(33, 153, 49);
+}
+.green-building-para-sec ul {
+    padding: 0 150px 0 0;
+}
+.green-building-para-sec ul li {
+    margin-bottom: 10px;
+}
+.green-building-para-sec ul li::before {
+    content: none;
+}
+.green-building-title-left {
+    text-align: left !important;
+}
+
+.bold-txt-green {
+    font-weight: bold;
+    color: rgb(6, 73, 15);
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 475px) {
+    .green-building-info-content {
+        margin-top: 20px;
+    }
+    .green-building-para-sec {
+        margin-top: 20px !important;
+    }
+    .green-building-para-sec ul {
+        padding: 0 ;
+    }
+    .green-building-para-sec table img {
+        width: 15%;
+    }
+}

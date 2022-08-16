@@ -1,0 +1,33 @@
+.dashboard-carousel-gallery {
+    padding: 20px 5px;
+    margin-top: 10px;
+}
+
+.gallery-title {
+   /* position: absolute;
+   top: 190px; */
+   color: #000;
+}
+.border-sec-gallery {
+    border-top: 2px solid #c5c3c3;
+    border-bottom: 2px solid #c5c3c3;
+}
+@media only screen and (max-width: 991px) {
+    .gallery-title {
+        position: absolute;
+        top: 125px;
+     }
+}
+@media only screen and (max-width: 1366px) {
+    .gallery-title {
+        position: absolute;
+        top: 110px;
+        font-size: 28px;
+     }
+}
+
+@media only screen and (max-width: 475px) {
+    .gallery-title {
+        top: 140px;
+    }
+}

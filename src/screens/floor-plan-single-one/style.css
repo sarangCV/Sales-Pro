@@ -1,0 +1,22 @@
+.floor-plan-single img {
+    width: 30%;
+    max-width: 100%;
+}
+.floor-plan-single {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+}
+.floor-plan-single-footer img{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+.gallery-image-sec-master-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-image-sec-master-plan img {
+    width: 45%;
+}

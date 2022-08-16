@@ -1,0 +1,59 @@
+
+.price-sheet-section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+}
+.price-sheet-section-one h3, .price-sheet-section-two h3 {
+    font-size: 17px;
+    color: #000;
+}
+.price-sheet-section-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.price-sheet-appartment-details {
+    width: 48%;
+    margin-bottom: 15px;
+}
+.price-sheet-appartment-details h3 {
+    margin-bottom: 10px;
+}
+
+table.table-bordered{
+    border:1px solid rgb(141, 141, 141);
+    margin-top:20px;
+  }
+table.table-bordered > thead > tr > th{
+    border:1px solid rgb(141, 141, 141);
+
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid rgb(141, 141, 141);
+
+}
+
+@media only screen and (max-width: 1366px) {
+    .container-sec-price-sheet {
+        height: auto;
+    }
+}
+@media only screen and (max-width: 475px) {
+    .container-sec-price-sheet {
+        height: auto;
+    }
+    /* .border-sec-price-sheet {
+        margin: 70px 15px;
+    } */
+    .price-sheet-section-one {
+        flex-direction: column;
+    }
+    .price-sheet-appartment-details {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

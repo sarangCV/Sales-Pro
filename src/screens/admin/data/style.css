@@ -1,0 +1,133 @@
+.container-sec-admin {
+    height: auto;
+}
+
+.admin-content-sec {
+    flex-direction: row;
+    margin-top: 50px;
+}
+.admin-content-row {
+    width: 100%;
+}
+.admin-data-sec-one {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+    /* margin-top: 20px; */
+}
+.admin-person-dropdown {
+    margin-top: 10px;
+}
+.admin-data-sec-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.table-sec {
+    width: 100%;
+    margin-right: 100px;
+    /* border: 1px solid rgb(172, 172, 172);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.chart-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.chart-title img {
+    height: 30px;
+    width: 30px;
+}
+.linechart-sec h3 {
+    margin-left: 10px;
+    /* margin-bottom: 50px; */
+    padding-top: 5px;
+}
+.pie-chart-sec {
+    width: 700px;
+}
+.admin-data-sec-two {
+    /* margin-top: 30px; */
+}
+.admin-single-text-sec {
+    margin-bottom: 30px;
+}
+.admin-single-text-sec p {
+    margin-left: 40px;
+}
+.login-para-sec {
+    margin-top: 20px;
+}
+.admin-icon-sec {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.admin-icon-sec img {
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.project-home-menu-admin {
+    border: none;
+    margin: 0;
+}
+.admin-inventory-status-sec {
+    border: 1px solid #c3c3c3;
+    padding: 10px;
+}
+.admin-inventory-status-one, .admin-inventory-status-two, .admin-inventory-status-three {
+    display: flex;
+    margin: 10px 0;
+}
+.admin-inventory-status-one-inner {
+    background-color: #9b9b9b;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.admin-inventory-status-two-inner {
+    background-color: #e1e1e1;
+    color: #4a2e23;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.admin-inventory-status-three-inner {
+    border: 2px solid #962222;
+    color: #000;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 1366px) {
+.container-sec-admin {
+    height: auto;
+}
+}
+
+@media only screen and (max-width: 475px) {
+    .border-sec-admin {
+        padding: 20px 0;
+     }
+    .project-home-menu-admin {
+        border: none;
+        /* margin-top: 25px; */
+        border-radius: 0;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+        width: 100%;
+    }
+}

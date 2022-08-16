@@ -1,0 +1,12 @@
+.project-home-menu-floor-plan {
+    justify-content: space-evenly;
+    margin: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 475px) {
+    .project-home-menu-floor-plan {
+        flex-wrap: wrap;
+        border: none;
+    }
+}

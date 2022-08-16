@@ -1,0 +1,36 @@
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.btn-container-mobile-entry .login-btn {
+    width: 45%;
+}
+.border-sec-mobile-entry-title {
+    padding: 35px 50vh !important;
+    border-top: 2px solid #c5c3c3;
+    border-bottom: 2px solid #c5c3c3;
+    border-radius: 0 !important;
+}
+.mobile-entry-title h3 {
+    color: #fff;
+}
+.mobile-entry-admin-btn {
+    position: absolute;
+    top: 72px;
+    width: 10%;
+    right: 20px;
+    /* background-color: rgba(212, 212, 212, 0.507) !important;
+    border: 1px solid #000; */
+}
+
+@media only screen and (max-width: 475px) {
+    .border-sec-mobile-entry-title {
+        padding: 15px !important;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 0 !important;
+    }
+}

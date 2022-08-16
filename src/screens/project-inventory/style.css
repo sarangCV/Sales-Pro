@@ -1,0 +1,168 @@
+.container-sec-project-inventory {
+    height: auto;
+}
+.inventory-header .header-title-desktop {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.header-title-mobile {
+    display: none;
+}
+.header-title .building-status-sec-one, .header-title .building-status-sec-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+    padding: 5px;
+    margin: 7px 0px;
+    border: 1px solid rgb(216, 216, 216);
+
+}
+.header-title .building-status-sec-one {
+    background-color: #9b9b9b;
+    color: #fff;
+}
+.header-title .building-status-sec-two {
+    background-color: #e1e1e1;
+    color: #4a2e23;
+}
+
+.header-title .building-status-sec-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #962222;
+    padding: 5px;
+    margin: 10px 0px;
+    /* border: 1px solid rgb(216, 216, 216);
+    background-color: #962222; */
+    color: #000;
+}
+
+/* .project-logo img {
+    height: 130px;
+} */
+
+.inventory-header {
+    border: 2px solid #c3c3c3;
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 15px 0;
+}
+
+.inventory-header-btn {
+    width: 90%;
+    align-self: center;
+    margin: 5px
+}
+.project-info-inventory {
+    flex-direction: column;
+    height: 85px;
+    width: 400px;
+}
+.inventory-sec {
+    width: 100%;
+}
+.project-inventory-menu {
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    border: 2px solid #c3c3c3;
+    width: 100%;
+}
+.inventory-project-logo {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.inventory-project-logo img {
+    width: 35%;
+}
+.inventory-header .project-info {
+    flex: 1;
+}
+.project-inventory-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+}
+.project-inventory-footer button {
+    width: 13%;
+    height: 45px;
+    margin-left: 10px;
+    
+}
+
+
+@media only screen and (max-width: 475px) {
+    .header-title-desktop {
+        display: none !important;
+    }
+    .header-title-mobile {
+        display: block;
+        width: 100%;
+    }
+    .header-title .building-status-sec-one, .header-title .building-status-sec-two, .header-title .building-status-sec-three {
+        margin: 15px 0px;    
+    }
+    .pricing-btn-sec {
+        display: flex;
+        justify-content: space-between;
+    }
+    .pricing-btn-sec .pricing-btn {
+        width: 48%;
+    }
+    .inventory-header {
+        height: auto;
+        border: none;
+        padding: 0;
+    }
+    .inventory-project-logo img {
+        width: 70% !important;
+        height: 75%;
+        max-width: 100%;
+        margin: 10px 0 !important;
+    }
+    .project-info-inventory {
+        flex-direction: column;
+        width: 100%;
+    }
+    .project-info-inner {
+        display: flex;
+        flex-direction: row;
+    }
+    .project-inventory-menu {
+        border: none;
+        margin-top: 25px;
+        border-top: 1px solid #939393;
+        border-radius: 0;
+        border-bottom: 1px solid #939393;
+    }
+    .project-inventory-footer button {
+        width: 100%;
+        height: 35px;
+        margin-left: 10px;
+        padding: 2px;
+    }
+    .inventory-btn-1 {
+        width: 20% !important;
+    }
+    .inventory-btn-2 {
+        width: 30% !important;
+    }
+    .inventory-btn-3 {
+        width: 50% !important;
+    }
+    .inventory-btn-4, .inventory-btn-5 {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .inventory-header {
+        padding: 10px;
+    }
+}

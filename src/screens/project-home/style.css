@@ -1,0 +1,186 @@
+
+.border-sec-project-home {
+    /* margin: 70px 10px; */
+}
+
+.project-home-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding: 15px 5px;
+    height: 220px;
+    /* border-top: 1px solid #c6c4c4; */
+    /* border-bottom: 1px solid #c6c4c4; */
+
+}
+
+.project-home-header .project-logo {
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-home-header .project-logo img {
+    height: 90%;
+}
+.project-map img {
+    width: 100%;
+    height: 100%
+}
+/* PROJECT INFO */
+.project-info {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    border: 1px solid;
+    border-color: #bdbdbd;
+    border-radius: 5px;
+    /* padding: 2px; */
+    width: 40%;
+    /* background-color: #ffffff ; */
+    color: #000;
+}
+.project-info-inner-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* border-top: 1px solid rgb(202, 202, 202); */
+    /* margin: 0 10px; */
+}
+.project-info-inner-row-first {
+    border-bottom: 1px solid #b1b1b1 !important;
+    background-color: rgb(197 197 197);
+}
+.project-info-inner-row div {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px;
+}
+
+/* PROJECT MENU */
+.project-home-menu {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    /* overflow-x: scroll; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    border-top: 2px solid #c5c3c3;
+    border-bottom: 2px solid #c5c3c3;
+    border-radius: 5px;
+    /* border-bottom: 2px solid #cdcdcd; */
+    padding: 20px 0;
+}
+
+.project-home-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.project-home-footer button {
+    width: 130px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 150px;
+    width: 200px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .project-home-header {
+        height: 165px;
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+    .project-home-menu {
+        margin-top: 0;
+    }
+    .project-home-footer {
+        margin-top: 30px;
+    }
+    .project-home-footer button { 
+        margin-top: 0;
+        height: 35px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .container-sec-project-home {
+        height: auto;
+    }    
+    /* .border-sec-project-home {
+        margin: 70px 0px;
+        width: 95%;
+        border: 2px solid #767676;
+        box-shadow: rgb(0 0 0 / 20%) 2px 2px 15px 8px;
+    } */
+    .project-home-header {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .project-home-header .project-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .project-home-header .project-logo img {
+        width: 35%;
+        height: 75%;
+        max-width: 100%;
+    }
+    .project-map img {
+        width: 100%;
+        height: 100%
+    }
+    .project-home-menu {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 20px 0px !important;
+        border-top: 1px solid #939393;
+        border-radius: 0;
+        border-bottom: 1px solid #939393;
+    }
+    .project-home-menu::-webkit-scrollbar {
+        display: none;
+    }
+    .project-info {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .project-info-inner-row {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        border-top: none;
+        text-align: center;
+    }
+    .project-info-inner-row-first {
+        border: none !important;
+    }
+    .project-home-footer {
+        justify-content: space-around;
+    }
+
+    .project-home-footer button {
+        width: 150px;
+        height: 35px;
+        margin-left: 10px;
+    }
+}
